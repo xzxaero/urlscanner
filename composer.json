@@ -1,0 +1,26 @@
+{
+    "name": "xzxstudy/urlscanner",
+    "description": "扫描CSV文件中的url并报告不可访问的url",
+    "keywords": ["url", "scanner", "csv"],
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xzxstudy",
+            "email": "120841809@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "xzxStudy\\UrlScanner\\": "src/"
+        }
+    }
+}
